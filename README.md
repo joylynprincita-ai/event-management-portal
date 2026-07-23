@@ -31,7 +31,7 @@ The Event Management Portal is designed to simplify event planning and ticket bo
 * Spring Boot 3
 * Spring Security
 * Spring Data JPA
-* Maven
+* JWT
 
 ### Database
 
@@ -53,8 +53,7 @@ The Event Management Portal is designed to simplify event planning and ticket bo
 ### Deployment
 
 * AWS EC2
-* Docker (Optional)
-* Nginx (Optional)
+* Docker
 
 ---
 
@@ -110,6 +109,7 @@ event-management-portal/
 │
 ├── backend/
 │   ├── src/
+│   ├── eventportal/
 │   ├── controller/
 │   ├── service/
 │   ├── repository/
@@ -120,9 +120,7 @@ event-management-portal/
 ├── frontend/
 │   ├── src/
 │   ├── components/
-│   ├── pages/
-│   ├── redux/
-│   └── assets/
+│   └── pages/
 │
 ├── database/
 │
