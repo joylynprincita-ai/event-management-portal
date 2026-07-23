@@ -128,51 +128,6 @@ event-management-portal/
 │
 └── README.md
 ```
-
----
-
-## Database
-
-* Users
-* Roles
-* Events
-* Categories
-* Bookings
-* Payments
-* Reviews
-* Notifications
-
----
-
-## REST APIs
-
-### Authentication
-
-* `POST /api/auth/register`
-* `POST /api/auth/login`
-* `POST /api/auth/logout`
-
-### Events
-
-* `GET /api/events`
-* `GET /api/events/{id}`
-* `POST /api/events`
-* `PUT /api/events/{id}`
-* `DELETE /api/events/{id}`
-
-### Bookings
-
-* `POST /api/bookings`
-* `GET /api/bookings`
-* `DELETE /api/bookings/{id}`
-
-### Payments
-
-* `POST /api/payments`
-* `GET /api/payments/history`
-
----
-
 ## Submitted By
 
 **Joylyn Princita Fernandes**
