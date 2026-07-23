@@ -1,0 +1,26 @@
+# Frontend
+event-management-frontend/node_modules/
+event-management-frontend/dist/
+
+# Backend
+event-management-backend/node_modules/
+
+# Environment files
+**/.env
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build files
+target/
